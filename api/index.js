@@ -1,4 +1,4 @@
-module.exports = (req, res) => {
+export default (req, res) => {
   // CORS headers
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -19,3 +19,4 @@ module.exports = (req, res) => {
     version: '1.0.0'
   });
 };
+
